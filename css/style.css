@@ -1,0 +1,136 @@
+/* color */
+
+
+:root {
+/* background-color */
+    --main-background-color: #E5E5E5;
+    --header-background-color: #FFFFFF;
+    --footer-and-hero-background-color: #2F303A;
+    --section-background-color: #F5F4FA;
+
+/* font-color */
+    --main-text-color: #212121;
+    --second-text-color:  #757575;
+    --third-text-color: #2196F3;
+    --fourth-text-color: #ffffff;
+
+    
+}
+
+
+
+/* main parameters */
+body {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+    font-family: Roboto, sans-serif;
+    
+}
+
+header {
+    background-color: var(--header-background-color);
+}
+
+footer {
+    background-color: var(--footer-and-hero-background-color);
+}
+
+p {
+    color: var(--second-text-color);
+}
+
+a {
+    text-decoration: none;
+    color: var(--main-text-color);
+}
+
+
+
+
+
+.hero {
+    background-color: var(--footer-and-hero-background-color);
+    color: var(--header-background-color);
+}
+
+.our-team {
+    background-color: var(--section-background-color);
+}
+
+
+/* logo */
+
+.logo-up {
+   color: var(--third-text-color);
+}
+
+.logo-down {
+    color: var(--third-text-color);
+}
+
+
+.secondary-font {
+    font-family: Raleway, sans-serif;
+}
+
+/* address */
+.address-footer  {
+    font-style: normal;
+    color: var(--fourth-text-color)
+}
+
+.address-footer-contacts {
+    font-style: normal;
+    color: rgba(134, 134, 134, 0.6)
+}
+
+
+    /* buttons */
+
+.button-one {
+    background-color: var(--third-text-color);
+    color: var(--fourth-text-color);
+} 
+
+.button-two {
+    background-color: var(--fourth-text-color);
+    color:var(--third-text-color);
+} 
+
+.button-one:hover {
+    background-color: var(--fourth-text-color);
+    color:var(--third-text-color);
+}
+
+.button-two:hover {
+    background-color: var(--third-text-color);
+    color: var(--fourth-text-color);
+}
+
+.button-one:focus {
+    background-color: var(--fourth-text-color);
+    color:var(--third-text-color);
+}
+
+.button-two:focus
+ {
+    background-color: var(--third-text-color);
+    color: var(--fourth-text-color);
+}
+
+
+
+
+
+
+/* nav */
+
+.main-nav-on > span  {
+    color: var(--third-text-color);
+}
+
+
+.main-nav:hover > a {
+    color: var(--third-text-color); 
+}
+
